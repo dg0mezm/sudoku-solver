@@ -1,7 +1,7 @@
 #table {
   border: 2px solid black;
-  width: 540px;
-  height: 540px;
+  width: 554px;
+  height: 554px;
 }
 
 #table .row {
@@ -12,4 +12,24 @@
   border: 1px solid black;
   width: 60px;
   height: 60px;
+}
+
+#table .row .cell input {
+  width: 100%;
+  height: 100%;
+  border: none;
+  background: none;
+  outline: none;
+  text-align: center;
+}
+
+#table .row .cell input::-webkit-outer-spin-button, 
+#table .row .cell input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
 }
